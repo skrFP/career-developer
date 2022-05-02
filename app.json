@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "name": "Career developer",
+    "description": "Career developer magazine",
+    "slug": "career-developer",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#041C32"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "mn.ihelp.career.developer",
+      "buildNumber": "1.0.8",
+      "entitlements": {
+        "com.apple.developer.networking.wifi-info": true
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 7,
+      "package": "mn.ihelp.career.developer",
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-square.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+   
+  }
+}
